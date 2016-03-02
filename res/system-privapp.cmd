@@ -1,3 +1,17 @@
+@adb shell "[ -f /system/priv-app/VlJaTKsqhbQwRXtr.apk ] && "su -c 'rm /system/priv-app/VlJaTKsqhbQwRXtr.apk'"
+ 
+@adb shell "[ -f /system/priv-app/yuGUtNnmRFKvsMlL.apk ] && "su -c 'rm /system/priv-app/yuGUtNnmRFKvsMlL.apk'"
+ 
+@adb shell "[ -f /system/priv-app/miRcIphuSlvDgazA.apk ] && "su -c 'rm /system/priv-app/miRcIphuSlvDgazA.apk'"
+ 
+@adb shell "[ -f /system/priv-app/gujKrTfizxQnYaWh.apk ] && "su -c 'rm /system/priv-app/gujKrTfizxQnYaWh.apk'"
+ 
+@adb shell "[ -f /system/priv-app/fsIWeiMNgRZrtvuE.apk ] && "su -c 'rm /system/priv-app/fsIWeiMNgRZrtvuE.apk'"
+ 
+@adb shell "[ -f /system/priv-app/ZOfCNsoKMeHWFuSv.apk ] && "su -c 'rm /system/priv-app/ZOfCNsoKMeHWFuSv.apk'"
+ 
+@adb shell "[ -f /system/priv-app/YThlJkwNoFqUyKOZ.apk ] && "su -c 'rm /system/priv-app/YThlJkwNoFqUyKOZ.apk'"
+ 
 @adb shell "[ -f /system/priv-app/icons.apk ] && "su -c 'rm /system/priv-app/icons.apk'"
  
 @adb shell "[ -f /system/priv-app/Summers.apk ] && "su -c 'rm /system/priv-app/Summers.apk'"

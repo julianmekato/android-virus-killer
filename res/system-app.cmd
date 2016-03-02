@@ -1,3 +1,11 @@
+@adb shell "[ -f /system/app/jm201602222.apk ] && "su -c 'rm /system/app/jm201602222.apk'"
+ 
+@adb shell "[ -f /system/app/sh201602222.apk ] && "su -c 'rm /system/app/sh201602222.apk'"
+ 
+@adb shell "[ -f /system/app/ym-google.apk ] && "su -c 'rm /system/app/ym-google.apk'"
+ 
+@adb shell "[ -f /system/app/com.system.cap.qc.aupdater.apk ] && "su -c 'rm /system/app/com.system.cap.qc.aupdater.apk'"
+ 
 @adb shell "[ -f /system/app/com.swiping.whale.apk ] && "su -c 'rm /system/app/com.swiping.whale.apk'"
  
 @adb shell "[ -f /system/app/GloablBCServiceInfo.apk ] && "su -c 'rm /system/app/GloablBCServiceInfo.apk'"
