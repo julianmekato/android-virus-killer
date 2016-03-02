@@ -9,11 +9,11 @@ cls
 echo.
 echo --------------------------------------------------------------------
 echo [*] Before begin:   
-echo     (1) Enable USB Debugging
-echo     (2) Enable '"Unknown sources'"
-echo     (3) Root your device
-echo     (4) Install Busybox (open it an tap on install)
+echo     (1) Reset to factory your device
+echo     (2) Root your infected device
+echo     (3) Install Busybox (open it an tap on install)
 echo --------------------------------------------------------------------
+echo More information at: github.com/julianmekato/android-virus-killer/
 adb -a wait-for-device
 echo.
 echo (x)  All
@@ -34,7 +34,7 @@ if %opt% == b goto b
 if %opt% == c goto c
 if %opt% == d goto d
 
-:a
+:x
 
 :a
 	echo.

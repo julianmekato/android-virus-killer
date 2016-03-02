@@ -31,7 +31,7 @@ copy res/%cmd_file% res/%cmd_file%.tmp>nul
 set /p file= File name (e=exit): 
 if %file% == e goto exit
 
-echo @adb shell ^"[ -f %path%/%file% ] ^&^& "su -c 'rm %path%/%file%'"^>nul>>res/%cmd_file%.tmp
+echo @adb shell ^"[ -f %path%/%file% ] ^&^& "su -c 'rm %path%/%file%'">>res/%cmd_file%.tmp
 echo. >>res/%cmd_file%.tmp
 
 goto file_name
